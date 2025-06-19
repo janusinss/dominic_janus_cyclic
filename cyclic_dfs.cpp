@@ -48,7 +48,7 @@ bool dfsDetectCycle(int current, vector<bool>& visited, vector<bool>& recursionS
 
 int main() {
     cout << "=== DFS Cycle Detection ===" << endl;
-    // 🌟 Change the starting vertex letter here!
+    // Change the starting vertex letter here!
     char startVertex = 'D';
     int startIndex = getVertexIndex(startVertex);
     vector<bool> visited(NUM_VERTICES, false);
