@@ -53,7 +53,7 @@ bool bfsCycleFrom(char startVertexChar) {
 
 int main() {
     cout << "=== BFS Cycle Detection (Controlled Start) ===" << endl;
-    // 🔁 Change this to control the starting vertex!
+    // Change this to control the starting vertex!
     char startChar = 'D';
     if (bfsCycleFrom(startChar))
         cout << "Cycle detected starting from " << startChar << " using BFS.\n";
